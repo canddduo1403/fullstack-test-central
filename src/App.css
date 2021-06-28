@@ -7,6 +7,54 @@
   pointer-events: none;
 }
 
+.first-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.circle-progress{
+  width: 200px;
+  height: 200px;
+  border: 10px solid darkblue;
+  border-radius: 50%;
+  clip: rect(0px, 50px, 100px, 0px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container{
+  margin: 50px;
+}
+
+.button-style{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-width:0px;
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 32px;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
